@@ -1,0 +1,80 @@
+Prompt para Desenvolvimento da Plataforma
+Nome do Projeto: BingoBet (ou BingoMais , Bingo77 , PremiereBingo ).
+
+Objetivo:
+"Desenvolver uma plataforma de apostas online centrada em BINGO , com jogos clássicos como Truco, Canastra, Dominó e Caxeta como complementos, focada em usuários acima de 30 anos. A plataforma deve oferecer uma experiência premium, com design moderno, UI/UX intuitivo, apostas ao vivo, funcionalidades sociais e otimização total para mobile, inspirada em Betano, Bet365, Blaze e Real Bet."
+
+Requisitos Detalhados:
+1. Design e Branding
+Logo:
+Elementos visuais que combinem cartelas de bingo , números sorteados e fichas de apostas .
+Cores: verde (confiança), dourado (premiação) e vermelho (urgência). Inspire-se na paleta da Betano, mas com identidade única.
+Fonte moderna e legível (ex.: Montserrat ou Poppins ).
+UI/UX:
+Home:
+Destaque para salas de bingo em tempo real com contagem regressiva para próximos sorteios.
+Seção "Jackpots Progressivos" em destaque.
+Banners de promoções (ex.: "Bingo Grátis para Novos Usuários").
+Sala de Bingo:
+Design imersivo com animações de bolinhas sorteadas e cartelas interativas.
+Opção de auto-daub (marcação automática de números).
+Chat ao vivo para interação entre jogadores.
+Outros Jogos (Truco, Canastra, etc.):
+Acesso secundário via menu, com design simplificado para não competir com o bingo.
+Responsividade:
+Layout adaptável para mobile (prioridade) e desktop.
+Toques suaves e menus simplificados para telas pequenas.
+2. Funcionalidades Principais
+Backend:
+
+Sistema de Bingo:
+Múltiplas variantes: Bingo Tradicional (90 bolas) , Bingo Americano (75 bolas) , Bingo Blitz (jogos rápidos).
+Geração aleatória de cartelas com preços variados (ex.: R1,R5, R$10).
+Lógica de jackpots progressivos (acumula até ser ganho).
+Integração de RNG (Random Number Generator) certificado para garantir justiça.
+Apostas em Outros Jogos:
+Truco/Canastra: Mesas com apostas pré-definidas e ranking de jogadores.
+Dominó/Caxeta: Sistema de apostas em partidas individuais ou em grupo.
+Pagamentos e Bônus:
+Pix, cartões, e-wallets (Mercado Pago, PicPay), criptomoedas (opcional).
+Bônus de primeiro depósito (100% até R$200), cashback semanal e missões diárias.
+Segurança:
+Autenticação de dois fatores (2FA).
+Criptografia AES-256 para dados e transações.
+Frontend:
+
+Dashboard do Usuário:
+Saldo, histórico de apostas, cartelas ativas e calendário de sorteios.
+Acesso rápido a promoções e jackpots.
+Social e Comunidade:
+Clubes de Bingo: Crie ou entre em grupos para jogar com amigos.
+Emojis e Reações: No chat da sala de bingo.
+Torneios Mensais: Ranking de jogadores com prêmios em dinheiro.
+3. Otimização para Mobile
+PWA (Progressive Web App):
+Instalação direta no celular sem app store.
+Notificações push para alertar sobre sorteios e promoções.
+App Nativo (iOS/Android):
+Versão premium com recursos exclusivos (ex.: temas personalizados).
+4. Marketing e Aquisição de Usuários
+Campanhas:
+"Bingo Grátis": Novos usuários ganham 5 cartelas sem depósito.
+Indique um Amigo: Bônus de R$20 para cada indicação que se cadastrar.
+Parcerias:
+Influenciadores de jogos clássicos (ex.: streamers de baralho e bingo).
+Publicidade no Facebook/Instagram (público 30+).
+5. Tecnologias Sugeridas
+Frontend: React.js + Redux (estado global), Three.js (animações 3D para jackpots).
+Backend: Node.js + Socket.io (atualizações em tempo real para bingo).
+Banco de Dados: PostgreSQL (dados estruturados) + MongoDB (dados em tempo real).
+Streaming: WebRTC para transmissões ao vivo de sorteios.
+Entregáveis Esperados:
+Protótipo funcional no Figma com fluxo do usuário.
+Código-fonte completo (backend/frontend) com testes automatizados.
+Logo e kit de branding (ícones, padrões visuais, fontes).
+Versão mobile (PWA e/ou app nativo).
+Documentação técnica e manual do usuário.
+Diferenciais Exclusivos:
+Bingo Social: Integração com calendários de eventos (ex.: bingo temático de Natal).
+Modo Offline: Pratique jogos sem apostas para aprender as regras.
+Cashout Parcial: Retire parte do prêmio antes do final do sorteio.
